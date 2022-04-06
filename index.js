@@ -8,5 +8,8 @@ bot.on('sticker', (ctx) => ctx.reply('👍'))
 bot.hears('hi', (ctx) => ctx.reply('Hey there'))
 bot.hears('barev', (ctx) => ctx.reply('🖕'))
 bot.hears('geo', (ctx) => ctx.replyWithLocation('40.7942', '43.84528'))
+const a = (ctx) => ctx.reply('Hey there')
+a()
 bot.launch()
+
 console.log(bot)
