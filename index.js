@@ -8,7 +8,7 @@ bot.on('sticker', (ctx) => ctx.reply('👍'))
 bot.hears('hi', (ctx) => ctx.reply('Hey there'))
 bot.hears('barev', (ctx) => ctx.reply('🖕'))
 bot.hears('geo', (ctx) => ctx.replyWithLocation('40.7942', '43.84528'))
-bot.hears('реклама', (ctx) => ctx.reply)
+// bot.hears('реклама', (ctx) => ctx.telegram.sendAudio(ctx.chat.id, 'https://www.mediafire.com/file/1apjqhyzcc74a0q/guitar-ringtone_Lwkn37nD.mp3'))
 
 bot.launch()
 
